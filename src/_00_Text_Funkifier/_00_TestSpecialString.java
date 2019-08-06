@@ -12,7 +12,7 @@ public class _00_TestSpecialString {
 	//   take a look at the BackwardsString class. Notice 
 	//   that it extends SpecialString. This means that is also
 	//   implements TextFunkifier. Therefore, it must overwrite the
-	//   funkifyText method.
+	//   funkifyText method.\
 	
 	//2. Fill in the funkifyText method in the BackwardsString class
 	//   to make the JUnitTest pass.
@@ -29,7 +29,7 @@ public class _00_TestSpecialString {
 	public void testMixedCapsString() {
 		SpecialString mcs = new MixedCapsString("This is also a test");
 		System.out.println(mcs);
-		assertEquals("tHiS Is aLsO A TeSt", mcs.toString());
+		assertEquals("tHiS iS aLsO a TeSt", mcs.toString());
 	}
 	
 	//4. Create your own class that extends SpecialString.
