@@ -6,7 +6,7 @@ public class Pig extends Animals{
 	public
 	void MakeNoise() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("OINK");
 	}
 
 }

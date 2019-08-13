@@ -6,7 +6,7 @@ public class Sheep extends Animals {
 	public
 	void MakeNoise() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("BAAAAAAA");
 	}
 
 }
